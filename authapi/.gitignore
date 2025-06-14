@@ -1,0 +1,47 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Variables de entorno y config sensibles
+*.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de logs y bases de datos temporales
+*.log
+*.sqlite3
+
+# Archivos de IDE y herramientas de desarrollo
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Dumps o backups de MongoDB
+dump/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# PyInstaller
+dist/
+build/
+*.spec
